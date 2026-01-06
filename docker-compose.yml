@@ -14,8 +14,8 @@ services:
       - db
       - redis
     volumes:
-      - ./app:/app
-    command: uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+      - .:/usr/src/src
+    command: uvicorn src.main:app --host 0.0.0.0 --port 8000 --reload
     restart: unless-stopped
 
   # PostgreSQL база данных
