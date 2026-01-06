@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+dist/
+wheels/
+*.egg-info/
+
+# Installer logs
+*.log
+
+# Unit test / coverage reports
+.coverage
+.pytest_cache/
+htmlcov/
+.tox/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# OS generated files
+.DS_Store
+thumbs.db
+
+# Virtual environment
+virtualenv/
+v_env/
+env/
+.venv/
+
+# FastAPI specific
+.env
