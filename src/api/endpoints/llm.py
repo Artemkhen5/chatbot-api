@@ -1,5 +1,4 @@
 from fastapi import APIRouter
-from openai.types.chat import ChatCompletionUserMessageParam
 
 from src.schemas.llm import Prompt
 from src.dependencies.llm import open_ai_client_dep

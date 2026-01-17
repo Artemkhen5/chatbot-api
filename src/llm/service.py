@@ -14,7 +14,7 @@ def get_answer_from_llm(client: OpenAI, msg: str):
             {"role": "user", "content": msg}
         ]
         response = client.chat.completions.create(
-            model="gemini-3-flash-preview",
+            model="gemini-2.5-flash",
             messages=messages,
         )
         logger.info("Запрос прошёл успешно.")
